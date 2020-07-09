@@ -310,32 +310,6 @@ img {
   align-items: center;
 }
 
-.skills__bar {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  background-color: var(--first-color);
-  height: .25rem;
-  border-radius: .5rem;
-  z-index: var(--z-back);
-}
-
-.skills__css {
-  width: 65%;
-}
-
-.skills__javascript {
-  width: 75%;
-}
-
-.skills__angular {
-  width: 85%;
-}
-
-.skills__java {
-  width: 95%;
-}
-
 .skills__img {
   border-radius: .5rem;
 }
