@@ -424,6 +424,7 @@ img {
   }
 
   .home__social-icon {
+    font-size: 3rem;
     margin-bottom: 0;
     margin-right: var(--mb-4);
   }
