@@ -2,180 +2,47 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="css/animate.css" />
-  <link rel="stylesheet" href="css/style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="css/styles.css">
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
   <title>Karina de Almeida Lima</title>
 </head>
 
 <body>
 
-  <div class="container navbar">
-    <header>
-      <div class="logo">
-        <h1>Karina de Almeida Lima</h1>
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div>
+        <a href="#" class="nav__logo">Karina</a>
       </div>
 
-      <nav>
-        <ul>
-          <li><a href="#about">about me</a></li>
-          <li><a href="#skills">skills</a></li>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#" class="nav__link active">Home</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Skills</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Work</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
         </ul>
-      </nav>
-    </header>
-  </div>
-
-  <div class="container main-info-section">
-    <div class="text">
-      <h1>
-        <span>H</span>
-        <span class="m-left">i</span>
-        <span class="m-left">,</span>
-        <br>
-        <span>I</span>
-        <span class="m-left">'</span>
-        <span class="m-left">m</span>
-        <span class="name">K</span>
-        <span class="m-left name">a</span>
-        <span class="m-left name">r</span>
-        <span class="m-left name">i</span>
-        <span class="m-left name">n</span>
-        <span class="m-left name">a</span>
-        <span class="m-left">,</span>
-        <br>
-        <span>F</span>
-        <span class="m-left">u</span>
-        <span class="m-left">l</span>
-        <span class="m-left">l</span>
-        <span>S</span>
-        <span class="m-left">t</span>
-        <span class="m-left">a</span>
-        <span class="m-left">c</span>
-        <span class="m-left">k</span>
-        <span>D</span>
-        <span class="m-left">e</span>
-        <span class="m-left">v</span>
-        <span class="m-left">e</span>
-        <span class="m-left">l</span>
-        <span class="m-left">o</span>
-        <span class="m-left">p</span>
-        <span class="m-left">e</span>
-        <span class="m-left">r</span>
-      </h1>
-      <p>CSS / JavaScript / Angular / Java</p>
-      <a href="#contact">contact me</a>
-    </div>
-    <div class="profile-image">
-      <img src="img/profile-image.png" alt="">
-    </div>
-  </div>
-
-  <div class="container about" id="about">
-    <h1>About</h1>
-    <div class="about-me-info">
-      <p>I am graduated in Computer Science and post graduated in Software Engineering. I have been working as a software developer since 2010, I have extensive knowledge in Java and Javascript languages. I have already worked with several web frameworks and also with agile methodologies. I like to plan, solve problems and create solutions that bring a good user experience. I defend the idea that there should be more women in the technological area. </p>
-    </div>
-    <img src="img/dotted-shape.png" alt="">
-  </div>
-
-  <div class="container skills" id="skills">
-    <h1>Skills</h1>
-      <p class="skills-info"></p>
-      <div class="html">
-        <div class="tag-css">
-          <p>CSS</p>
-        </div>
-        <div class="progressbar">
-          <div class="bar-css"></div>
-        </div>
       </div>
-      <div class="html">
-        <div class="tag-javascript">
-          <p>JavaScript</p>
-        </div>
-        <div class="progressbar">
-          <div class="bar-javascript"></div>
-        </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class='bx bx-menu'></i>
       </div>
-      <div class="html">
-        <div class="tag-angular">
-          <p>Angular</p>
-        </div>
-        <div class="progressbar">
-          <div class="bar-angular"></div>
-        </div>
-      </div>
-      <div class="html">
-        <div class="tag-java">
-          <p>Java</p>
-        </div>
-        <div class="progressbar">
-          <div class="bar-java"></div>
-        </div>
-      </div>
-    </h1>
-  </div>
-
-  <!--<div class="container work" id="work">
-    <h1>Work</h1>
-    <div class="work-category">
-      <button id="designing" class="active" onclick="showRequiredCategory(this)">Web Designing</button>
-      <button id="animation" onclick="showRequiredCategory(this)">Web Animation</button>
-      <button id="project" onclick="showRequiredCategory(this)">React Project</button>
-    </div>
-    <div class="category-designing showCategory">
-      <a href=""><img src="img/1.png"></a>
-      <a href=""><img src="img/2.png"></a>
-      <a href=""><img src="img/3.png"></a>
-      <a href=""><img src="img/2.png"></a>
-      <a href=""><img src="img/3.png"></a>
-    </div>
-    <div class="category-animation hideCategory">
-      <a href=""><img src="img/1.png"></a>
-      <a href=""><img src="img/2.png"></a>
-      <a href=""><img src="img/3.png"></a>
-    </div>
-    <div class="category-project hideCategory">
-      <a href=""><img src="img/1.png"></a>
-      <a href=""><img src="img/2.png"></a>
-      <a href=""><img src="img/3.png"></a>
-      <a href=""><img src="img/2.png"></a>
-    </div>
-  </div>-->
-
-  <div class="container contact" id="contact">
-    <h1>Contact</h1>
-    <!--<form>
-      <input type="text" name="name" placeholder="Full name">
-      <input type="email" placeholder="Email">
-      <input type="email" placeholder="karinacomk.lima@gmail.com"  disabled>
-      <textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>
-      <input type="submit" value="Submit">
-    </form>-->
-    <div id="links-footer" class="links">
-      <a href="https://www.linkedin.com/in/karinacomka" target="_blank">
-       <img src="img/linkedin.png" alt="LinkedIn" title="LinkedIn">
-      </a>
-      <a href="https://github.com/karinacomk" target="_blank">
-       <img src="img/github-logo.png" alt="GitHub" title="GitHub">
-      </a>
-    </div>
-  </div>
-
-  <footer>
-    <hr>
-    <p>2020 Copyright. All Rights Reserved.</p>
-  </footer>
+  
+    </nav>
+  </header>
+  <main class="l-main">
 
 
-  <script src="js/ScrollMagic.min.js"></script>
-  <script src="js/animation.gsap.min.js"></script>
-  <script src="js/TimelineLite.min.js"></script>
-  <script src="js/TweenMax.min.js"></script>
-  <script src="js/CSSPlugin.min.js"></script>
-  <script src="js/script.js"></script>
+  </main>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="js/main.js"></script>
+
 </body>
 
 </html>
